@@ -5,7 +5,7 @@ st = time.time()
 
 ###########################
 
-def game():
+def playGame():
     elements = ["Rock","Paper","Scissor"]
     comp = elements[random.randint(0,2)]
     player = None 
@@ -31,10 +31,6 @@ def game():
         else:
             player = input("Plase enter valid Element: ")
     
-
-def playGame():
-    game()
-   
 
 playAgain = True
 while playAgain == True:
